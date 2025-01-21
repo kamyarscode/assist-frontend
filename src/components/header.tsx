@@ -13,9 +13,9 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
 };
 
 const headerStyles: React.CSSProperties = {
-  backgroundColor: "#282c34",
+  backgroundColor: "rgba(28, 53, 62, 0.5)",
   color: "white",
-  padding: "10px 20px",
+  padding: "10px 10px",
   textAlign: "center",
 };
 
