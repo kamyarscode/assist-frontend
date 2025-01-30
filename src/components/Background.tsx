@@ -8,7 +8,7 @@ const Background: React.FC = () => {
     width: "100%",
     height: "100%",
     zIndex: -1, // Ensure it stays in the background
-    background: "linear-gradient(to bottom,rgb(201, 197, 155),rgb(167, 185, 202))",
+    background: "linear-gradient(to bottom,rgb(112, 109, 73),rgb(167, 185, 202))",
   };
 
   return <div style={backgroundStyles}></div>;
