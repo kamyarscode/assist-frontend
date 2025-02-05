@@ -2,7 +2,7 @@ import React from "react";
 
 interface ScrollToProps {
   elementName: string;
-  buttonName: string;    // Accept background image URL
+  buttonName: string;
 }
 
 const Scroll: React.FC<ScrollToProps> = ({elementName, buttonName}) => {
