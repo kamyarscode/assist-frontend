@@ -1,0 +1,70 @@
+/* Position the hamburger icon on the right */
+.hamburger-menu {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 1000;
+  }
+  
+  /* Hamburger icon styling */
+  .hamburger-icon {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+  }
+  
+  /* Menu slide-in effect */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Menu content */
+  .menu-content {
+    width: 80%;
+    text-align: center;
+  }
+  
+  /* Close button */
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+  
+  /* Menu items */
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 20px 0;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.2s;
+  }
+  
+  .menu a:hover {
+    color: #ffcc00;
+  }
+  
