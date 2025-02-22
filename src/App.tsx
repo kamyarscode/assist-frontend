@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Background from "./components/Background";
 import TileGrid from "./components/TileGrid";
+import TechStack from "./components/TechStack";
+import Scroll from "./components/ScrollTo";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css"; // Global styles
@@ -34,8 +36,10 @@ const App: React.FC = () => {
         <Background />
         <Header title="Language Model Assist App" />
         <main>
-          <h2>Tile Grid!</h2>
+        <h1>Generic text here</h1>
+        <Scroll elementName="tech-section" buttonName="View Tech Stack"/>
           <TileGrid rows={2} columns={2} images={tileImages} titles={tileTitles} />
+          <TechStack />
         </main>
         <Footer />
       </div>
